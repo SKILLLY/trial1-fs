@@ -13,7 +13,7 @@ const user = [
         twitterId: "https://twitter.com/YashSethia",
         linkedinId: "https://www.linkedin.com/in/yash-sethia-852206191/",
 
-
+        
         articleCount: 5,
         articleTitle : [
                         "Dear Entrepreneur, Stop Using the F-Word",

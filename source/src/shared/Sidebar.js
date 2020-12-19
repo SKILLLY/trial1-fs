@@ -68,7 +68,7 @@ class Sidebar extends React.Component {
               </NavLink>
             </li>
             <li className="sidenav-item">
-              <NavLink to ="/portfolio">
+              <NavLink to ="/portfolio" target ="_blank" >
                 <span className="icons"><i className="fa fa-address-book" aria-hidden="true"></i></span>
                 <span className="options">Portfolio</span>
               </NavLink>

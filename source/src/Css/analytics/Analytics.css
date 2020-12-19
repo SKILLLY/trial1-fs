@@ -1,18 +1,10 @@
-/*
-#sidenav{
-  width: 40px;
-  height: 100vh;
-  background-color: #D5EDFF;
-  top: 0px;
-  position: fixed;
-}
-*/
-
-.total-grid-i {
+.total-grid-analytics {
+  /* margin-top: 3rem; */
+  padding-top: 4rem;
   padding-left: 40px;
 /*  padding-top: 40px;*/
   display: grid;
-  height: 110vh;
+  height: 100vh;
   grid-template-columns: 1fr 1fr;
   grid-template-rows:  2.5fr 2fr 4.2fr 1fr;
   grid-template-areas:
@@ -20,10 +12,10 @@
 	  "overview overview"
 	  "content1 content2"
 	  "footerp footerp";
-
 }
 
-.headings{
+
+.headings-analytics{
   background: auto;
   width: 80%;
   padding-left: 20px;
@@ -34,21 +26,22 @@
 
 }
 
-#task-nav{
+#task-nav-analytics{
   display: flex;
   width: 45%;
+  min-width: 40%;
   justify-content: space-between
 }
-#task-nav a{
+#task-nav-analytics a{
   text-decoration: None;
   color: #BDBDBD;
 }
-.active{
+.active-analytics{
   color: #060606!important;
 }
 
 
-.overview {
+.overview-analytics {
   background: #f5f5f5;
   grid-area: overview;
   height: 100%;
@@ -56,7 +49,7 @@
   display: flex;
 }
 
-.overview-box {
+.overview-box-analytics {
   box-sizing: border-box;
   height: 75%;
   width: 94%;
@@ -70,19 +63,23 @@
   box-shadow: 0 0.2rem 9px rgba(0, 0, 0, 0.1);
 }
 
-.stat-heading{
+.individual-box-analytics {
+  padding: 3rem 0;
+}
+
+.stat-heading-analytics{
   color: #a6a6a6;
   font-weight: 200;
 }
 
-.stat-value {
+.stat-value-analytics {
   font-weight: 480;
-  font-size: 170%;
+  font-size: 1.7rem;
 }
 
-.stat-value span {
+.stat-value-analytics span {
   font-weight: 200;
-  font-size: 50%;
+  font-size: 0.85rem;
   color: #009933;
 }
 
@@ -136,6 +133,7 @@
 .content-table th,
 .content-table td {
   padding: 12px 30px;
+  text-align: center;
 }
 
 .content-table tbody tr {
@@ -151,7 +149,87 @@
 }
 .footerp {
   background: #d9d9d9;
+  bottom: 0;
   grid-area: footerp;
   height: 90%;
   align-self: flex-end;
+}
+
+/* Media Queries */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .total-grid-analytics {
+    padding-top: 4.5rem;
+  }
+  .article-topic-analytics h1 {
+    font-size: 1.6rem;
+  }
+
+  #task-nav-analytics {
+    font-size: 0.8rem;
+    width: 70%;
+  }
+
+  .stat-heading-analytics {
+    font-size: 0.9rem;
+  }
+
+  .stat-value-analytics {
+    font-size: 1.2rem;
+  }
+
+  .stat-value-analytics span {
+    font-size: 0.65rem;
+  }
+
+  .content-table{
+    font-size: 0.7rem;
+  }
+
+  .content-table th, .content-table td {
+    padding: 12px 15px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .total-grid-analytics {
+    padding-top: 4.5rem;
+  }
+  .article-topic-analytics h1 {
+    font-size: 1.8rem;
+  }
+
+  #task-nav-analytics {
+    font-size: 0.8rem;
+    width: 60%;
+  }
+  .stat-value-analytics {
+    font-size: 1.5rem;
+  }
+
+  .stat-value-analytics span {
+    font-size: 0.7rem;
+  }
+
+  .content-table{
+    font-size: 0.8rem;
+  }
+
+  .content-table th, .content-table td {
+    padding: 12px 20px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .total-grid-analytics {
+    padding-top: 4rem;
+  }
+  .article-topic-analytics h1 {
+    font-size: 2rem;
+  }
+
+  #task-nav-analytics {
+    font-size: 0.9rem;
+    width: 50%;
+  }
 }

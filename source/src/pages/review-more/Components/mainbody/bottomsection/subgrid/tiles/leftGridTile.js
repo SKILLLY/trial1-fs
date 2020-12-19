@@ -10,33 +10,33 @@ class LeftGridTile extends React.Component {
   render() {
     return (
         <div className="left-grid-tile">
-            <Grid container spacing={1}>
+            <Grid container xs={12} spacing={1}>
 
-                <div class="genre-articles">
+                <div className="genre-articles">
+                        <Grid item md={12} xs={4}>
+                            <img className="genre-article-image" src={this.props.image} alt="" />
+                        </Grid>
 
-                    <Grid item md={12} sm={4}>
-                        <img class="genre-article-image" src={this.props.image} alt="" />
-                    </Grid>
+                        <Grid item md={12} xs={8}>
+                            <div className="left-grid-content">
+                                <div className="genre-article-heading">
+                                    {this.props.title}
+                                </div>
 
-                    <Grid item md={12} sm={8}>
-                        <div class="genre-article-heading">
-                            {this.props.title}
-                        </div>
+                                <div className="genre-article-text">
+                                    {this.props.metaText}
+                                </div>
 
-                        <div class="genre-article-text">
-                            {this.props.metaText}
-                        </div>
-
-                        <div class="genre-article-details">
-                            <div class="genre-article-date">
-                                {this.props.date}
+                                <div className="genre-article-details">
+                                    <div className="genre-article-date">
+                                        {this.props.date}
+                                    </div>
+                                    <div className="genre-article-read-time">
+                                        {this.props.readTime}
+                                    </div>
+                                </div>
                             </div>
-                            <div class="genre-article-read-time">
-                                {this.props.readTime}
-                            </div>
-                        </div>
-                    </Grid>
-
+                        </Grid>
                 </div>
 
             </Grid>

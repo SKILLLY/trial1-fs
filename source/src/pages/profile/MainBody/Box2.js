@@ -4,7 +4,6 @@ import badge from "../../../images/badge.png"
 class Box2 extends React.Component {
 render() {
         return (
-            <div>
             <div className="Box-2">
                 <div className="Skilllies-Earned">
                     <div className="Skilllies-Heading">Skilllies Earned</div>
@@ -31,7 +30,6 @@ render() {
                         </li>
                     </ul>
                 </div>
-            </div>
             </div>
         );
     }

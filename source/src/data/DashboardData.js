@@ -4,8 +4,8 @@ const DashboardData = [
         heading: "Dunk of Dunkin",
         brief: "Dunkin Donut is an American multinational coffee and doughnut company founded in 1950. The brand has stores at 12900 different...",
         Progress: 40,
-        Views: 15,
-        DaysTaken: 5,
+        views: 15,
+        daysTaken: 5,
         comments: 5
     },
     {
@@ -13,8 +13,8 @@ const DashboardData = [
         heading: "Dunk of Dunkin",
         brief: "Dunkin Donut is an American multinational coffee and doughnut company founded in 1950. The brand has stores at 12900 different...",
         Progress: 40,
-        Views: 15,
-        DaysTaken: 5,
+        views: 15,
+        daysTaken: 5,
         comments: 5
     },
     {
@@ -22,8 +22,8 @@ const DashboardData = [
         heading: "Dunk of Dunkin",
         brief: "Dunkin Donut is an American multinational coffee and doughnut company founded in 1950. The brand has stores at 12900 different...",
         Progress: 40,
-        Views: 15,
-        DaysTaken: 5,
+        views: 15,
+        daysTaken: 5,
         comments: 5
     },
     {
@@ -31,8 +31,8 @@ const DashboardData = [
         heading: "Dunk of Dunkin",
         brief: "Dunkin Donut is an American multinational coffee and doughnut company founded in 1950. The brand has stores at 12900 different...",
         Progress: 40,
-        Views: 15,
-        DaysTaken: 5,
+        views: 15,
+        daysTaken: 5,
         comments: 5
     },
     {
@@ -40,8 +40,8 @@ const DashboardData = [
         heading: "Dunk of Dunkin",
         brief: "Dunkin Donut is an American multinational coffee and doughnut company founded in 1950. The brand has stores at 12900 different...",
         Progress: 40,
-        Views: 15,
-        DaysTaken: 5,
+        views: 15,
+        daysTaken: 5,
         comments: 5
     },
     {
@@ -49,8 +49,8 @@ const DashboardData = [
         heading: "Dunk of Dunkin",
         brief: "Dunkin Donut is an American multinational coffee and doughnut company founded in 1950. The brand has stores at 12900 different...",
         Progress: 40,
-        Views: 15,
-        DaysTaken: 5,
+        views: 15,
+        daysTaken: 5,
         comments: 5
     },
     {
@@ -58,8 +58,8 @@ const DashboardData = [
         heading: "Dunk of Dunkin",
         brief: "Dunkin Donut is an American multinational coffee and doughnut company founded in 1950. The brand has stores at 12900 different...",
         Progress: 40,
-        Views: 15,
-        DaysTaken: 5,
+        views: 15,
+        daysTaken: 5,
         comments: 5
     },
     {
@@ -67,8 +67,8 @@ const DashboardData = [
         heading: "Dunk of Dunkin",
         brief: "Dunkin Donut is an American multinational coffee and doughnut company founded in 1950. The brand has stores at 12900 different...",
         Progress: 40,
-        Views: 15,
-        DaysTaken: 6,
+        views: 15,
+        daysTaken: 6,
         comments: 5
     },
     {
@@ -76,8 +76,8 @@ const DashboardData = [
         heading: "Dunk of Dunkin",
         brief: "Dunkin Donut is an American multinational coffee and doughnut company founded in 1950. The brand has stores at 12900 different...",
         Progress: 40,
-        Views: 15,
-        DaysTaken: 5,
+        views: 15,
+        daysTaken: 5,
         comments: 5
     },
 

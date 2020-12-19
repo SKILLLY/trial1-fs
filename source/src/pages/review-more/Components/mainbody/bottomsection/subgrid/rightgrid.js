@@ -25,7 +25,7 @@ class Rightgrid extends React.Component {
     return (
         <div className="right-grid">
 
-            <span class="grid-head">
+            <span className="grid-head">
                 Trending on SKILLY
             </span>
 

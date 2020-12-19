@@ -1,7 +1,7 @@
 const UserData = [
     {
         id: 1,
-        name: "Daenerys Targaryen",
+        name: "Dany Targaryen",
         nickName: "Khaleesi",
         profileImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYuvseM6KuCBT7u86FD9XYUlNH6o8uM5i6IA&usqp=CAU",
         coverImage: "https://ymbproperties.com/blog/wp-content/uploads/2014/03/boy.png",

@@ -1,5 +1,6 @@
 import React from 'react';
 import IndividualArticle from './articleBox';
+import Grid from '@material-ui/core/Grid';
 
 
 class userArticleGrid extends React.Component {

@@ -37,7 +37,7 @@ function profileIntroduction(props) {
 
 
                     <div className="profile-location">
-                        {props.city}, {props.country} 
+                        {props.city}, {props.country}
                     </div>
 
 
@@ -51,18 +51,18 @@ function profileIntroduction(props) {
 
                 <div className="profile-social-media">
 
-                    <a href={props.facebookId} target="_blank"> 
+                    <a href={props.facebookId} target="_blank">
                         <img className="social-links"  src={facebook} alt="Facebook" />
                     </a>
 
-                    <a href={props.twitterId} target="_blank"> 
+                    <a href={props.twitterId} target="_blank">
                         <img className="social-links" src={twitter} alt="Twitter" />
                     </a>
 
-                    <a href={props.linkedinId} target="_blank"> 
+                    <a href={props.linkedinId} target="_blank">
                         <img className="social-links"  src={linkedin} alt="LinkedIn" />
                     </a>
-                    
+
                 </div>
 
             </div>
